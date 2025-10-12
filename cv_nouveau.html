@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Louis Kerguillec — CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1115;--card:#151823;--ink:#e8ecf1;--muted:#a9b3c1;--accent:#7c9cff;--line:#23293a;
+    }
+    body{margin:0;font-family:'Inter',sans-serif;background:var(--bg);color:var(--ink);}
+    .page{max-width:1000px;margin:40px auto;padding:0 24px;display:grid;grid-template-columns:300px 1fr;gap:24px}
+    header{grid-column:1/3;background:var(--card);border-radius:20px;padding:20px;border:1px solid #22283a;}
+    header h1{margin:0;font-size:28px}
+    header .subtitle{color:var(--muted);margin:4px 0 0}
+    .contact{display:flex;flex-wrap:wrap;gap:12px;font-size:14px;margin-top:10px}
+    .contact a{color:var(--accent);text-decoration:none}
+    section.card{background:var(--card);border-radius:18px;padding:16px;border:1px solid #22283a;margin-bottom:16px}
+    h2{font-size:14px;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+    h3{font-size:13px;margin:6px 0;color:var(--ink)}
+    .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+    .chip{background:#1c2130;border:1px solid #2a3248;border-radius:999px;padding:5px 10px;font-size:12px}
+    .timeline{position:relative;margin-top:10px}
+    .item{margin-bottom:14px}
+    .when{color:var(--muted);font-size:12px}
+    .bullets{margin:10px 20px 0 0px}
+    .bullets{font-size:13px}
+    .list{margin:0 0 0 16px;padding:0}
+    .list li{margin:4px 0}
+    .list{font-size:13px}
+    @media(max-width:850px){.page{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Louis KERGUILLEC</h1>
+      <p class="subtitle">Ingénieur Machine Learning — Stage de fin d’études · Janvier 2026</p>
+      <div class="contact">
+        <span>📍 Île‑de‑France</span>
+        <a href="mailto:louiskerguillec35@gmail.com">louiskerguillec35@gmail.com</a>
+        <a href="https://www.linkedin.com/in/louis-kerguillec">LinkedIn</a>
+      </div>
+    </header>
+
+    <aside>
+      <section class="card">
+        <h2>Compétences</h2>
+        <h3>Langages</h3>
+        <div class="chips">
+            <span class="chip">Bash</span>
+            <span class="chip">C</span>
+            <span class="chip">CSS</span>
+            <span class="chip">C++</span>
+            <span class="chip">HTML</span>
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">JS</span>
+            <span class="chip">Mathematica</span>
+            <span class="chip">MATLAB</span>
+            <span class="chip">PHP</span>
+            <span class="chip">R</span>
+            <span class="chip">SQL</span>
+        </div>
+        <h3>IA & Vision</h3>
+        <div class="chips">
+            <span class="chip">OpenCV</span>
+            <span class="chip">OpenVINS</span>
+            <span class="chip">PyTorch</span>
+            <span class="chip">ROS</span>
+            <span class="chip">YOLO</span>
+            <span class="chip">Transformers</span>
+        </div>
+        <h3>Outils</h3>
+        <div class="chips"><span class="chip">Git</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">Pack Office</span>
+            <span class="chip">Witness</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Langues</h2>
+        <ul class="list"><li>Anglais C1+</li><li>Allemand (bases)</li></ul>
+      </section>
+
+      <section class="card">
+        <h2>Soft skills</h2>
+        <ul class="list"><li>Responsable Communication — BDE Supmicrotech 2025</li><li>Curiosité, empathie, pédagogie</li></ul>
+      </section>
+
+      <section class="card">
+        <h2>Intérêts</h2>
+        <ul class="list"><li>Piano (composition)</li><li>Photographie</li></ul>
+      </section>
+    </aside>
+
+    <main>
+      <section class="card">
+        <h2>Expérience Professionnelle</h2>
+        <div class="timeline">
+          <div class="item">
+            <b>Recherche pour la NASA — Mission Artemis</b> · Florida Institute of Technology
+            <div class="when">Sep. 2024 – Jan. 2025</div>
+              <p style="font-size:13px">Détection & identification de cibles lumineuses via réseau de neurones pour la navigation autonome de drones :</p>
+                <ul class="bullets">
+                    <li>Conception de datasets</li>
+                    <li>Entraînement et validation de modèles de détection d'objets multi-classes</li>
+                    <li>Création de pipelines ROS pour la détection automatique des cibles en vol</li>
+                </ul>
+              <p style="font-size:13px">Navigation visuelle‑inertielle sur rover : calibration IMU‑caméra, fusion de données, estimation de pose et visualisation de trajectoire :</p>
+              <ul class="bullets">
+                <li>Calibration d’une IMU avec une caméra, fusion des données, estimation de pose</li>
+                <li>Extraction et visualisation des trajectoires avec ROS</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Projets</h2>
+        <div class="item">
+          <b>ML/DL Competition (Thinksport × ISU)</b>
+          <div class="when">Creating personalized insights for the audience of the International Skating Union</div>
+          <div class="when">Computer Vision, LLM, Cloud</div>
+        </div>
+        <div class="item">
+          <b>SCRUM Master – Développement logiciel</b>
+          <div class="when">Java · MariaDB · phpMyAdmin</div>
+        </div>
+        <div class="item">
+          <b>Projets de modélisation</b>
+          <div class="when">- Smoothed-Particle Hydrodynamics (Java)</div>
+          <div class="when">- Champs de la variable complexe autour d'obstacles (Mathematica)</div>
+          <div class="when">- Pennes' BioHeat Equation (Python)</div>
+          <div class="when">- Interférences acoustiques (Python)</div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Formation</h2>
+        <div class="timeline">
+            <div class="item">
+                <div class="when">2023 - 2026</div>
+                <b>École Nationale Supérieure de Mécanique et des Microtechniques - Supmicrotech</b>
+                <div class="when">Spécialisation : Ingénierie des Systèmes de Production</div>
+                <div class="when">- Data & IA (Neural Networks, Support Vector Machines, Random forests …)</div>
+                <div class="when">- Maintenance prédictive & Gestion de production (Supply Chain, Lean Manufacturing, KPI & Dashboards, Graphes de Markov, Réseaux de Petri, Files d’attente …)</div>
+            </div>
+            <div class="item">
+                <div class="when">2023 - 2020</div>
+                <b>CPGE Assomption — Rennes</b> · PCSI/PC
+            </div>
+            <div class="item">
+                <div class="when">2017 - 2020</div>
+                <b>Lycée l'Institution — Saint-Malo</b>
+            </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
