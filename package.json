@@ -2,6 +2,7 @@
   "name": "louis-ker.github.io",
   "private": true,
   "type": "module",
+  "homepage": "https://louis-ker/louis-ker.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,7 +19,7 @@
     "three": "^0.160.1"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.3.0",
     "vite": "^5.4.0"
   }
 }
