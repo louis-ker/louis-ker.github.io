@@ -1,0 +1,4 @@
+html, body, #root { height: 100%; width: 100%; margin: 0; }
+#root { height: 10%; width: 100%; margin: 0; }
+.dither-container { height: 100%; width: 100%; display: block; }
+canvas { display: block; }
